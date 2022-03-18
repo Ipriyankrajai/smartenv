@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/smartenv/static/css/main.ee7054d8.css",
+    "main.js": "/smartenv/static/js/main.6a9e2c7c.js",
+    "static/js/787.56d8bac6.chunk.js": "/smartenv/static/js/787.56d8bac6.chunk.js",
+    "static/media/rcblogo.png": "/smartenv/static/media/rcblogo.1b59c77f0e5939f9bf94.png",
+    "static/media/milogo.png": "/smartenv/static/media/milogo.902bf2610469faace2a6.png",
+    "static/media/csklogo.png": "/smartenv/static/media/csklogo.0f3ebac69e25c2b2a5ef.png",
+    "index.html": "/smartenv/index.html",
+    "main.ee7054d8.css.map": "/smartenv/static/css/main.ee7054d8.css.map",
+    "main.6a9e2c7c.js.map": "/smartenv/static/js/main.6a9e2c7c.js.map",
+    "787.56d8bac6.chunk.js.map": "/smartenv/static/js/787.56d8bac6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee7054d8.css",
+    "static/js/main.6a9e2c7c.js"
+  ]
+}
