@@ -1,16 +1,14 @@
 .header-main-div{
-    /* background-color: blue; */
     display: flex;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     justify-content: space-between;
-    /* height: 100px; */
 }
 .header-logo{
     width: 20%;
 }
 .header-logo > img{
-    width: 30%;
+    height: 80px;
 }
 .header-other{
     width: 70%;
