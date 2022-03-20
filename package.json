@@ -1,21 +1,31 @@
 {
   "name": "smartenv",
+  "homepage": "https://ipriyankrajai.github.io/smartenv/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "env-cmd": "^10.1.0",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-card-flip": "^1.1.5",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-responsive": "^9.0.0-beta.6",
     "react-scripts": "5.0.0",
+    "save-dev": "0.0.1-security",
     "styled-components": "^5.3.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "env-cmd -f .env.mi react-scripts start",
+    "build": "env-cmd -f .env.mi react-scripts build",
     "start-mi": "env-cmd -f .env.mi react-scripts start",
     "build-mi": "env-cmd -f .env.mi react-scripts build",
     "start-csk": "env-cmd -f .env.csk react-scripts start",
@@ -23,8 +33,7 @@
     "start-rcb": "env-cmd -f .env.rcb react-scripts start",
     "build-rcb": "env-cmd -f .env.rcb react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start": "react-scripts start"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

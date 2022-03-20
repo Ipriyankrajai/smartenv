@@ -11,7 +11,10 @@ export const data ={
         owner:'Reliance Industries',
         primarycolor:'blue',
         secondarycolor:'lightblue',
-        logo:milogo
+        logo:milogo,
+        fblink:'https://www.facebook.com/mumbaiindians/',
+        twlink:'https://twitter.com/mipaltan?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
+        inlink:'https://www.instagram.com/mumbaiindians/?hl=en'
     },
     CSK:{
         title:'CSK | CHENNAI SUPER KINGS',
@@ -22,7 +25,10 @@ export const data ={
         owner:'Chennai Super Kings Ltd.',
         primarycolor:'#ffc107',
         secondarycolor:'orange',
-        logo:csklogo
+        logo:csklogo,
+        fblink:'https://www.facebook.com/TheChennaiSuperKings/',
+        twlink:'https://twitter.com/ChennaiIPL?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
+        inlink:'https://www.instagram.com/chennaiipl/?hl=en'
     },
     RCB:{
         title:'RCB | ROYAL CHALLENGERS BANGLORE',
@@ -33,6 +39,9 @@ export const data ={
         owner:'United Spirits Limited',
         primarycolor:'red',
         secondarycolor:'grey',
-        logo:rcblogo
+        logo:rcblogo,
+        fblink:'https://www.facebook.com/RoyalChallengersBangalore/',
+        twlink:'https://twitter.com/RCBTweets?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
+        inlink:'https://www.instagram.com/royalchallengersbangalore/?hl=en'
     }
 }

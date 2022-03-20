@@ -3,6 +3,8 @@
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .header-logo{
     width: 20%;
@@ -16,10 +18,49 @@
     align-items: center;
  justify-content: space-around;
 }
+.header-mob-other{
+    display: flex;
+    align-items: center;
+ justify-content: space-around;
+}
 .header-other > div{
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
 }
 .header-other > div:hover{
     color: white;
+}
+.footer-other{
+    display: flex;
+    align-items: center;
+ justify-content: space-around;
+}
+.footer-other > div{
+    font-size: 18px;
+    cursor: pointer;
+}
+.footer-other > div:hover{
+    color: white;
+}
+
+.main-footer-div{
+    margin-top: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.footer-logo-sc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2%;
+}
+.footer-sc-main{
+    cursor: pointer;
+}
+@media (min-width: 300px) and (max-width: 480px){
+    .footer-other > div{
+        font-size: 14px;
+    }
 }

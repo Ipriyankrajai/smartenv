@@ -7,7 +7,7 @@ import './style.css'
 const TeamWeb = (props) => {
     const [isFlipped, setIsFlipped] = useState(false);
     const [isFlipped2, setIsFlipped2] = useState(false);
-    const {title,description,titleswon,year,captian,owner,primarycolor,secondarycolor,logo}=props.data;
+    const {title,description,titleswon,year,captian,owner,primarycolor,secondarycolor,logo,fblink,inlink,twlink}=props.data;
     console.log('secondarycolor',secondarycolor);
 
     const handleClick = () => {
@@ -37,7 +37,6 @@ const TeamWeb = (props) => {
                             <button onClick={handleClick}>Click for stats</button>
                             </div>
                         </div>
-
                         <div className='flip-b-status' style={{backgroundColor:secondarycolor}}>
                             <div className='flip-f-status-content'>
                                 <div>
@@ -77,7 +76,7 @@ const TeamWeb = (props) => {
                         </div>
                     </ReactCardFlip>
                 </div>
-                <Footer />
+                <Footer logo={logo} footerColor={secondarycolor} primaryColor={primarycolor} instaLink={inlink} fbaLink={fblink} twLink={twlink} />
             </styleMi>
         </div>
     )
